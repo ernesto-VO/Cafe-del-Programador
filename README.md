@@ -30,17 +30,17 @@ el cliente podra ir selecionando los elementos que desee agregar al pedido, post
 
 #**recursos para despues:**
 
-[!NOTE]
+>[!NOTE]
 >Aqui hay una nota
 
-[!TIP]
+>[!TIP]
 >Aqui hay un consejo
 
-[!IMPORTANT]
+>[!IMPORTANT]
 >Aqui hay una aviso importante
 
-[!WARNING]
+>[!WARNING]
 >Aqui hay una advertencia
 
-[!CAUTION]
+>[!CAUTION]
 >Aqui hay otra advertencia pero mas leve
