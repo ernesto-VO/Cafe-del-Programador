@@ -26,3 +26,21 @@ Instalación y uso:
 # **metodo de funcionamiento:**
 
 el cliente podra ir selecionando los elementos que desee agregar al pedido, posteriormente hara el pedido, primero pasara por el metodo pagar el cual verifica si la tarjeta ingresada es real y la fecha no a expirado para posteriormente se agregara el pedido a una lista en la computadora de los trabajadores los pedidos iran en el orden que se fueron pidiendo al esar listo el pedido, los trabajadores simplemente llamaran a nombre del pedido este diseño esta inspirado por kfc y su servicio automatisado
+
+
+#**recursos para despues:**
+
+[!NOTE]
+>Aqui hay una nota
+
+[!TIP]
+>Aqui hay un consejo
+
+[!IMPORTANT]
+>Aqui hay una aviso importante
+
+[!WARNING]
+>Aqui hay una advertencia
+
+[!CAUTION]
+>Aqui hay otra advertencia pero mas leve
