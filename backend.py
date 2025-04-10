@@ -208,14 +208,13 @@ class Cliente:
 
         respuesta = input("desea segir con el pago? (y/n)")
         if respuesta == "y":
-            #comentado para no tener qu ehacer todo esto en las pruebas
-            #pago= False
-            #while pago == False:
-            #    nombrecompleto = input("ingresa tu nombre")
-            #    numero_tarjeta = input("ingresa el nuemro de la tarjeta")
-            #    fecha_vencimiento = input("ingresa la fehca de vencimiento (MM/AA)")
-            #    cvv = input("ingresa el cvv")
-            #    pago = Cliente.verificar_tarjeta(nombrecompleto, numero_tarjeta, fecha_vencimiento, cvv)
+            pago= False
+            while pago == False:
+                nombrecompleto = input("ingresa tu nombre")
+                numero_tarjeta = input("ingresa el nuemro de la tarjeta")
+                fecha_vencimiento = input("ingresa la fehca de vencimiento (MM/AA)")
+                cvv = input("ingresa el cvv")
+                pago = Cliente.verificar_tarjeta(nombrecompleto, numero_tarjeta, fecha_vencimiento, cvv)
             Inventario.quitarPorPedido(self)
 
             if isinstance(self,  ClienteNoRegistrado):
